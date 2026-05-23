@@ -1,0 +1,137 @@
+aid: susquehanna-international-group
+url: https://raw.githubusercontent.com/api-evangelist/susquehanna-international-group/refs/heads/main/apis.yml
+name: Susquehanna International Group (SIG)
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Quantitative Trading
+  - Market Making
+  - Proprietary Trading
+  - Options
+  - Derivatives
+  - Institutional Sales
+  - Growth Equity
+  - Venture Capital
+  - Machine Learning
+  - Financial Services
+description: >-
+  Susquehanna International Group (SIG) is a privately held global
+  quantitative trading firm founded in 1987 by a group of college friends
+  who began trading on the Philadelphia Stock Exchange, leveraging
+  quantitative skills and poker-derived decision science. Headquartered in
+  Bala Cynwyd, Pennsylvania, the firm employs more than 3,500 people across
+  17+ offices worldwide and operates as one of the largest options market
+  makers globally. SIG's businesses span Quantitative Trading, Predictions,
+  Institutional Sales, Growth Equity (Susquehanna Growth Equity / SGE),
+  Sustainable Investments, Asia-focused Venture Capital (notably an early
+  and large stake in ByteDance), and the River's Edge promotional arm. SIG
+  does not operate a public developer portal, expose external trading APIs,
+  or publish open-source repositories under a public GitHub organization;
+  all technology is internal to the trading and quantitative research
+  platform. Public surface is limited to sig.com (company / careers /
+  insights), the SGE site, and corporate communications.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://sig.com/
+  - type: About
+    url: https://sig.com/about/
+  - type: Careers
+    url: https://sig.com/careers/
+  - type: TechnologyCareers
+    url: https://sig.com/careers/technology/
+  - type: QuantitativeResearchCareers
+    url: https://sig.com/careers/quantitative-research/
+  - type: TradingCareers
+    url: https://sig.com/careers/trading/
+  - type: Offices
+    url: https://sig.com/about/offices/
+  - type: Insights
+    url: https://sig.com/insights/
+  - type: Contact
+    url: https://sig.com/contact/
+  - type: PrivacyPolicy
+    url: https://sig.com/privacy-policy/
+  - type: TermsOfUse
+    url: https://sig.com/terms-of-use/
+  - type: SusquehannaGrowthEquity
+    url: https://www.sgep.com/
+  - type: SusquehannaPrivateEquity
+    url: https://www.sigpac.com/
+  - type: GitHubOrganization
+    url: https://github.com/sig-com
+    description: Private/empty GitHub organization. "This organization has no public repositories." No public source, SDKs, or sample code published.
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/susquehanna-international-group
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Susquehanna_International_Group
+  - name: Features
+    type: Features
+    data:
+      - name: Quantitative Trading
+        description: Systematic, model-driven trading across equities, options, ETFs, futures, commodities, FX, and fixed income on global exchanges and OTC venues.
+      - name: Options Market Making
+        description: One of the largest global options market makers, providing two-sided quotes and liquidity across listed equity and index options markets.
+      - name: Predictions
+        description: SIG's data-driven forecasting and prediction-market expertise applied internally to trading and decision making.
+      - name: Institutional Sales
+        description: Client-facing trading services for institutional counterparties needing access to SIG's liquidity and execution.
+      - name: Susquehanna Growth Equity (SGE)
+        description: Growth-stage equity investment arm investing in software, information services, financial technology, and healthcare IT companies.
+      - name: Sustainable Investments
+        description: ESG-aligned investment activities within the broader SIG family of investment vehicles.
+      - name: Asia Venture Capital
+        description: Early-stage and growth venture investing in Asia, including SIG's well-known early and large stake in ByteDance.
+      - name: River's Edge
+        description: SIG's promotional, events, and brand-experience division.
+      - name: Education And Training Program
+        description: SIG's in-house trading and quantitative research training curriculum, grounded in game theory, decision science, and poker-derived probabilistic reasoning.
+  - name: Use Cases
+    type: UseCases
+    data:
+      - name: Liquidity Provision On Listed Options
+        description: Continuously quoting bids and offers on listed options markets to provide liquidity for institutional and retail order flow.
+      - name: Systematic Multi-Asset Trading
+        description: Operating quantitative strategies across equities, futures, FX, fixed income, and commodities using internal research and proprietary technology.
+      - name: Growth-Stage Software And Fintech Investing
+        description: Deploying SGE capital into growth-stage B2B software, fintech, healthcare IT, and information services companies.
+      - name: Asia Technology Venture Investing
+        description: Backing early- and growth-stage Asia-based technology companies through SIG's Asia VC arm, most notably ByteDance.
+      - name: Internal Quantitative Research
+        description: Building machine learning, statistical, and microstructure models used solely inside SIG's proprietary trading systems.
+      - name: Recruiting And Training Quantitative Talent
+        description: Recruiting from top universities and running multi-week training programs that develop traders, quants, and engineers from first principles.
+  - name: Industries
+    type: Industries
+    data:
+      - name: Capital Markets
+        description: Global equities, options, futures, FX, fixed income, ETF, and commodities trading venues.
+      - name: Market Making
+        description: Listed and OTC market making across global exchanges, including a leading position in US listed options.
+      - name: Asset Management And Investing
+        description: Growth equity (SGE), private equity, and venture capital across software, fintech, and Asia technology.
+      - name: Financial Technology
+        description: Proprietary trading systems, low-latency infrastructure, and quantitative research platforms operated internally.
+  - name: Compliance
+    type: Compliance
+    data:
+      - name: SEC Registration
+        description: SIG affiliates operate as US broker-dealers and registered market participants subject to SEC oversight.
+      - name: FINRA Member
+        description: US broker-dealer affiliates are FINRA members subject to its rules and examinations.
+      - name: CFTC / NFA Oversight
+        description: Futures and derivatives activities are subject to CFTC and NFA regulation where applicable.
+      - name: Global Regulatory Coverage
+        description: Operates across multiple regulated jurisdictions including the EU (MiFID II), UK (FCA), Ireland (Central Bank of Ireland), Hong Kong (SFC), and Australia (ASIC).
+      - name: Confidentiality And Trade Secrecy
+        description: All trading models, infrastructure, and research are proprietary trade secrets; no public source, API, or model disclosure.
+plansReconciled: false
+rateLimitsReconciled: false
+finopsReconciled: false
+position: Consuming
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
