@@ -55,7 +55,7 @@ common:
     url: https://sig.com/contact/
   - type: PrivacyPolicy
     url: https://sig.com/privacy-policy/
-  - type: TermsOfUse
+  - type: TermsOfService
     url: https://sig.com/terms-of-use/
   - type: SusquehannaGrowthEquity
     url: https://www.sgep.com/
