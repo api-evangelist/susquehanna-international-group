@@ -43,7 +43,7 @@ description: >-
   insights), the SGE site, and corporate communications.
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis: []
 common:
   - type: DomainSecurity
